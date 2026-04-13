@@ -82,7 +82,7 @@ const AdminAddProduct = () => {
             </div>
 
             <div className="form-group">
-              <label>Price ($)</label>
+              <label>Price (₹)</label>
               <input name="price" type="number" step="0.01" value={formData.price} onChange={handleChange} required />
             </div>
 

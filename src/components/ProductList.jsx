@@ -70,7 +70,7 @@ const ProductList = () => {
               <h3 className="product-title">{product.name}</h3>
               <p className="product-category">{product.category}</p>
               <div className="product-footer">
-                <span className="product-price">${product.price.toFixed(2)}</span>
+                <span className="product-price">₹{product.price.toFixed(2)}</span>
                 <button 
                   className="btn btn-primary" 
                   onClick={() => addToCart(product)}

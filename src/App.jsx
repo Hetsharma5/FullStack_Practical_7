@@ -18,7 +18,7 @@ const MainHeader = () => {
     <header className="main-header">
       <nav className="nav-container">
         <div className="logo">
-          <Link to="/">LUXE<span>STORE</span></Link>
+          <Link to="/">HET<span>STORE</span></Link>
         </div>
         <ul className="nav-links">
           <li><Link to="/">Store</Link></li>
@@ -65,7 +65,7 @@ function App() {
               </Routes>
             </main>
             <footer className="main-footer">
-              <p>&copy; 2026 LuxeStore. Academic Project for FSD.</p>
+              <p>&copy; 2026 Het'Store. Academic Project for FSD.</p>
             </footer>
           </div>
         </Router>

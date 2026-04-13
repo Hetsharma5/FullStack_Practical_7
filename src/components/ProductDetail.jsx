@@ -76,7 +76,7 @@ const ProductDetail = () => {
           <h1 className="product-detail-title">{product.name}</h1>
           <p className="product-detail-brand text-muted">by {product.brand}</p>
           
-          <div className="product-detail-price">${product.price.toFixed(2)}</div>
+          <div className="product-detail-price">₹{product.price.toFixed(2)}</div>
           <p className="product-detail-description">{product.description}</p>
           
           <div className="stock-info">

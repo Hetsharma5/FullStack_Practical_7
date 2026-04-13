@@ -1,6 +1,6 @@
-# 💎 LuxeStore - Premium E-Commerce Solution
+# 💎 Het'Store - Premium E-Commerce Solution
 
-LuxeStore is a sophisticated, full-stack e-commerce application designed for high-end lifestyle products. It features a robust architecture, secure authentication, and a premium user experience.
+Het'Store is a sophisticated, full-stack e-commerce application designed for high-end lifestyle products. It features a robust architecture, secure authentication, and a premium user experience.
 
 ---
 

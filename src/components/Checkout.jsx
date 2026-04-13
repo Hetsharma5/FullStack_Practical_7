@@ -32,14 +32,14 @@ const Checkout = () => {
                   {item.title} <strong>x {item.quantity}</strong>
                 </span>
                 <span className="order-item-subtotal">
-                  ${(item.price * item.quantity).toFixed(2)}
+                  ₹{(item.price * item.quantity).toFixed(2)}
                 </span>
               </div>
             ))}
           </div>
           <div className="order-total-row">
             <span>Total Amount to Pay</span>
-            <span className="total-price">${finalTotal.toFixed(2)}</span>
+            <span className="total-price">₹{finalTotal.toFixed(2)}</span>
           </div>
           
           <div className="payment-simulation mt-4">

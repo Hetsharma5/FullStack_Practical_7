@@ -32,7 +32,7 @@ const Signup = () => {
     <div className="container center-content">
       <div className="auth-card">
         <h2>Create Account</h2>
-        <p className="auth-subtitle">Join LuxeStore today</p>
+        <p className="auth-subtitle">Join Het'Store today</p>
         
         {error && <div className="error-alert">{error}</div>}
         
